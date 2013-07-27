@@ -3,28 +3,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>演習1-19</title>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	</head>
+	<title>演習2-2</title>
 	</head>
 	<body>
 		<script type="text/javascript">
-		<!--
-		var param=window.prompt('please input a character','');
-		var result='';
-		
-		switch(param){
-			case 'A':
-			result='◎';
-			break;
-			case 'B':
-			result='○';
-			break;
-			case 'C':
-			result='△';
-		}
-		//-->
+			<!--
+			$(function(){
+				$('#hoge').html($('#hoge').html() + '<p>a new paragraph</p>');
+			});
+			//-->
 		</script>
-		</a>
-		
-		
+		<div id="hoge">
+			<p>
+				hogehoge
+			</p>
+		</div>
 	</body>
 </html>
